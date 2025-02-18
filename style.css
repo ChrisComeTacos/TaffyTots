@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +21,16 @@ body {
   overflow: hidden;
 }
 
+/* .parallaxTaffy::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to top, #ff8f9f, transparent);
+  z-index: 1000;
+} */
+
 .parallaxTaffyPC {
   display: none;
 }
@@ -30,6 +44,34 @@ body {
 .historia {
   position: relative;
   background-color: #ff8f9f;
+}
+
+#Nombre {
+  position: absolute;
+  font-family: "Pacifico", serif;
+  color: #e75b84;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  top: 60%;
+  text-shadow: 1px 1px 1px white, 2px 2px 1px white;
+}
+
+h1 {
+  font-family: "Pacifico", serif;
+  color: #e2245d;
+  text-shadow: 1px 1px 1px white, 2px 2px 1px white;
+  font-size: 3rem;
+}
+
+p,
+li {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Montserrat", serif;
+  /* font-family: "Lato", serif; */
 }
 
 @media (max-width: 425px) {
