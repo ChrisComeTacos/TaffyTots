@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b8548b;
+  overflow-x: hidden;
+}
+
+.parallaxTaffy {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.parallaxTaffy img {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+
+.historia {
+  position: relative;
+  background-color: #ff8f9f;
+}
