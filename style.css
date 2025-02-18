@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+.parallaxTaffyPC {
+  display: none;
+}
+
 .parallaxTaffy img {
   position: absolute;
   width: 100%;
@@ -26,4 +30,40 @@ body {
 .historia {
   position: relative;
   background-color: #ff8f9f;
+}
+
+@media (max-width: 425px) {
+  #Taffy {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .parallaxTaffy {
+    display: none;
+  }
+  .parallaxTaffyPC {
+    display: block;
+    position: relative;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .parallaxTaffyPC img {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  #Taffy {
+    width: 50%;
+  }
+  .historia {
+    width: 100vw;
+  }
+  #Arboles {
+    bottom: 0;
+  }
 }
